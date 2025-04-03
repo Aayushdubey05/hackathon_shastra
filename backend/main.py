@@ -1,5 +1,6 @@
 from fastapi import FastAPI,HTTPException
 from databaseDesign import database,models,schemas
+from databaseDesign.database import engine
 
 
 async def lifespan(app: FastAPI):
