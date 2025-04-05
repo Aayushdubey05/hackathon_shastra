@@ -1,4 +1,4 @@
-from fastapi import FastAPI,HTTPException
+from fastapi import FastAPI
 from databaseDesign import database,models,schemas
 from databaseDesign.database import engine
 
